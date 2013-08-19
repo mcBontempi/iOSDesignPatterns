@@ -7,23 +7,33 @@
 //
 
 #import "DDTViewController.h"
+#import "DDTNumberPickerViewController.h"
+#import "DDTNumberPickerViewControllerDelegate.h"
 
-@interface DDTViewController ()
-
+@interface DDTViewController () <DDTNumberPickerViewControllerDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *label;
 @end
 
 @implementation DDTViewController
 
-- (void)viewDidLoad
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  if ([segue.identifier isEqualToString:@"DDTNumberPickerSegue"]) {
+    DDTNumberPickerViewController *numberPickerViewController = segue.destinationViewController;
+    
+    numberPickerViewController.value = 21;
+    numberPickerViewController.delegate = self;
+  }
 }
 
-- (void)didReceiveMemoryWarning
+- (void)didChangeValue:(NSInteger)value
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  NSLog(@"didChangeValue:%d", value);
+}
+
+- (BOOL)shouldChangeValue:(NSInteger)value
+{
+  return value >= 18 && value <= 30;
 }
 
 @end
