@@ -23,12 +23,10 @@
 		D6C3FA8917BD5A0100E301C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C3FA6417BD5A0100E301C3 /* Foundation.framework */; };
 		D6C3FA9117BD5A0100E301C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6C3FA8F17BD5A0100E301C3 /* InfoPlist.strings */; };
 		D6C3FA9417BD5A0100E301C3 /* DelegatePatternUsingProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3FA9317BD5A0100E301C3 /* DelegatePatternUsingProtocolTests.m */; };
-		D6C3FAE617BD5A4F00E301C3 /* DDTServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3FAE517BD5A4F00E301C3 /* DDTServer.m */; };
-		D6C3FAE717BD5A4F00E301C3 /* DDTServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3FAE517BD5A4F00E301C3 /* DDTServer.m */; };
-		D6C3FAEA17BD5A6300E301C3 /* DDTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3FAE917BD5A6300E301C3 /* DDTClient.m */; };
-		D6C3FAEB17BD5A6300E301C3 /* DDTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3FAE917BD5A6300E301C3 /* DDTClient.m */; };
-		FDD6157D17BE3B810032DFD2 /* DDTNumberPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6157C17BE3B810032DFD2 /* DDTNumberPickerViewController.m */; };
-		FDD6157E17BE3B810032DFD2 /* DDTNumberPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6157C17BE3B810032DFD2 /* DDTNumberPickerViewController.m */; };
+		FDD6158217C1F3CF0032DFD2 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6158117C1F3CF0032DFD2 /* A.m */; };
+		FDD6158317C1F3CF0032DFD2 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6158117C1F3CF0032DFD2 /* A.m */; };
+		FDD6158617C1F3E20032DFD2 /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6158517C1F3E20032DFD2 /* B.m */; };
+		FDD6158717C1F3E20032DFD2 /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6158517C1F3E20032DFD2 /* B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,14 +62,11 @@
 		D6C3FA9017BD5A0100E301C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6C3FA9217BD5A0100E301C3 /* DelegatePatternUsingProtocolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePatternUsingProtocolTests.h; sourceTree = "<group>"; };
 		D6C3FA9317BD5A0100E301C3 /* DelegatePatternUsingProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePatternUsingProtocolTests.m; sourceTree = "<group>"; };
-		D6C3FAE417BD5A4F00E301C3 /* DDTServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTServer.h; sourceTree = "<group>"; };
-		D6C3FAE517BD5A4F00E301C3 /* DDTServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTServer.m; sourceTree = "<group>"; };
-		D6C3FAE817BD5A6300E301C3 /* DDTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTClient.h; sourceTree = "<group>"; };
-		D6C3FAE917BD5A6300E301C3 /* DDTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTClient.m; sourceTree = "<group>"; };
-		D6C3FAEC17BD5A7800E301C3 /* DDTServerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTServerDelegate.h; sourceTree = "<group>"; };
-		FDD6157B17BE3B810032DFD2 /* DDTNumberPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTNumberPickerViewController.h; sourceTree = "<group>"; };
-		FDD6157C17BE3B810032DFD2 /* DDTNumberPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTNumberPickerViewController.m; sourceTree = "<group>"; };
-		FDD6157F17BE41C00032DFD2 /* DDTNumberPickerViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTNumberPickerViewControllerDelegate.h; sourceTree = "<group>"; };
+		FDD6158017C1F3CF0032DFD2 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		FDD6158117C1F3CF0032DFD2 /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		FDD6158417C1F3E20032DFD2 /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		FDD6158517C1F3E20032DFD2 /* B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
+		FDD6158817C1F3F70032DFD2 /* BDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,20 +126,17 @@
 		D6C3FA6817BD5A0100E301C3 /* DelegatePatternUsingProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				D6C3FA6917BD5A0100E301C3 /* Supporting Files */,
 				D6C3FA7117BD5A0100E301C3 /* DDTAppDelegate.h */,
 				D6C3FA7217BD5A0100E301C3 /* DDTAppDelegate.m */,
 				D6C3FA7A17BD5A0100E301C3 /* MainStoryboard.storyboard */,
 				D6C3FA7D17BD5A0100E301C3 /* DDTViewController.h */,
 				D6C3FA7E17BD5A0100E301C3 /* DDTViewController.m */,
-				D6C3FA6917BD5A0100E301C3 /* Supporting Files */,
-				D6C3FAE417BD5A4F00E301C3 /* DDTServer.h */,
-				D6C3FAE517BD5A4F00E301C3 /* DDTServer.m */,
-				D6C3FAEC17BD5A7800E301C3 /* DDTServerDelegate.h */,
-				D6C3FAE817BD5A6300E301C3 /* DDTClient.h */,
-				D6C3FAE917BD5A6300E301C3 /* DDTClient.m */,
-				FDD6157B17BE3B810032DFD2 /* DDTNumberPickerViewController.h */,
-				FDD6157C17BE3B810032DFD2 /* DDTNumberPickerViewController.m */,
-				FDD6157F17BE41C00032DFD2 /* DDTNumberPickerViewControllerDelegate.h */,
+				FDD6158017C1F3CF0032DFD2 /* A.h */,
+				FDD6158117C1F3CF0032DFD2 /* A.m */,
+				FDD6158417C1F3E20032DFD2 /* B.h */,
+				FDD6158517C1F3E20032DFD2 /* B.m */,
+				FDD6158817C1F3F70032DFD2 /* BDelegate.h */,
 			);
 			path = DelegatePatternUsingProtocol;
 			sourceTree = "<group>";
@@ -296,9 +288,8 @@
 				D6C3FA6F17BD5A0100E301C3 /* main.m in Sources */,
 				D6C3FA7317BD5A0100E301C3 /* DDTAppDelegate.m in Sources */,
 				D6C3FA7F17BD5A0100E301C3 /* DDTViewController.m in Sources */,
-				D6C3FAE617BD5A4F00E301C3 /* DDTServer.m in Sources */,
-				D6C3FAEA17BD5A6300E301C3 /* DDTClient.m in Sources */,
-				FDD6157D17BE3B810032DFD2 /* DDTNumberPickerViewController.m in Sources */,
+				FDD6158217C1F3CF0032DFD2 /* A.m in Sources */,
+				FDD6158617C1F3E20032DFD2 /* B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C3FA9417BD5A0100E301C3 /* DelegatePatternUsingProtocolTests.m in Sources */,
-				D6C3FAE717BD5A4F00E301C3 /* DDTServer.m in Sources */,
-				D6C3FAEB17BD5A6300E301C3 /* DDTClient.m in Sources */,
-				FDD6157E17BE3B810032DFD2 /* DDTNumberPickerViewController.m in Sources */,
+				FDD6158317C1F3CF0032DFD2 /* A.m in Sources */,
+				FDD6158717C1F3E20032DFD2 /* B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

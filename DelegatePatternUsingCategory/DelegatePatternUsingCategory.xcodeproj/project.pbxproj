@@ -23,6 +23,10 @@
 		D6C3FAD017BD5A3000E301C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C3FAAB17BD5A3000E301C3 /* Foundation.framework */; };
 		D6C3FAD817BD5A3000E301C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6C3FAD617BD5A3000E301C3 /* InfoPlist.strings */; };
 		D6C3FADB17BD5A3000E301C3 /* DelegatePatternUsingCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3FADA17BD5A3000E301C3 /* DelegatePatternUsingCategoryTests.m */; };
+		FD945CBB17C2643400A01733 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = FD945CB817C2643400A01733 /* A.m */; };
+		FD945CBC17C2643400A01733 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = FD945CB817C2643400A01733 /* A.m */; };
+		FD945CBD17C2643400A01733 /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = FD945CBA17C2643400A01733 /* B.m */; };
+		FD945CBE17C2643400A01733 /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = FD945CBA17C2643400A01733 /* B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		D6C3FAD717BD5A3000E301C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6C3FAD917BD5A3000E301C3 /* DelegatePatternUsingCategoryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePatternUsingCategoryTests.h; sourceTree = "<group>"; };
 		D6C3FADA17BD5A3000E301C3 /* DelegatePatternUsingCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePatternUsingCategoryTests.m; sourceTree = "<group>"; };
+		FD945CB717C2643400A01733 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		FD945CB817C2643400A01733 /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		FD945CB917C2643400A01733 /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		FD945CBA17C2643400A01733 /* B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,10 @@
 		D6C3FAAF17BD5A3000E301C3 /* DelegatePatternUsingCategory */ = {
 			isa = PBXGroup;
 			children = (
+				FD945CB717C2643400A01733 /* A.h */,
+				FD945CB817C2643400A01733 /* A.m */,
+				FD945CB917C2643400A01733 /* B.h */,
+				FD945CBA17C2643400A01733 /* B.m */,
 				D6C3FAB817BD5A3000E301C3 /* DDTAppDelegate.h */,
 				D6C3FAB917BD5A3000E301C3 /* DDTAppDelegate.m */,
 				D6C3FAC117BD5A3000E301C3 /* MainStoryboard.storyboard */,
@@ -274,6 +286,8 @@
 				D6C3FAB617BD5A3000E301C3 /* main.m in Sources */,
 				D6C3FABA17BD5A3000E301C3 /* DDTAppDelegate.m in Sources */,
 				D6C3FAC617BD5A3000E301C3 /* DDTViewController.m in Sources */,
+				FD945CBB17C2643400A01733 /* A.m in Sources */,
+				FD945CBD17C2643400A01733 /* B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C3FADB17BD5A3000E301C3 /* DelegatePatternUsingCategoryTests.m in Sources */,
+				FD945CBC17C2643400A01733 /* A.m in Sources */,
+				FD945CBE17C2643400A01733 /* B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +470,7 @@
 				D6C3FAE017BD5A3000E301C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6C3FAE117BD5A3000E301C3 /* Build configuration list for PBXNativeTarget "DelegatePatternUsingCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +479,7 @@
 				D6C3FAE317BD5A3000E301C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

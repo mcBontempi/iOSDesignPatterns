@@ -7,26 +7,21 @@
 //
 
 #import "DelegatePatternUsingProtocolTests.h"
+#import "A.h"
+#import "B.h"
 
 @implementation DelegatePatternUsingProtocolTests
 
-- (void)setUp
+- (void)testDelegate
 {
-    [super setUp];
-    
-    // Set-up code here.
-}
+  A *a = [[A alloc] init];
+  B *b = [[B alloc] init];
+  
+  b.delegate = a;
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in DelegatePatternUsingProtocolTests");
+  [b action1];
+  [b action2];
+  [b action3];
 }
 
 @end
